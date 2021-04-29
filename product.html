@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>product</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- =====================================top of the page================== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="ecommerce.html">Bootstrap Store</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="category.html">Baby Products</a>
+            <a class="dropdown-item" href="category.html">Beauty &amp; Health</a>
+            <a class="dropdown-item" href="category.html">Electronics</a>
+            <a class="dropdown-item" href="category.html">Furniture</a>
+            <a class="dropdown-item" href="category.html">Home &amp; Garden</a>
+            <a class="dropdown-item" href="category.html">Luggage &amp; Bags</a>
+            <a class="dropdown-item" href="category.html">Shoes</a>
+            <a class="dropdown-item" href="category.html">Sports &amp; Entertainment</a>
+            <a class="dropdown-item" href="category.html">Watches</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="ecommerce.html">All Categories</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Link</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav ml-auto">
+        <li>
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+              <path
+                d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+            </svg>
+          </a>
+        </li>
+        <li class="nav-item"><a href="account.html"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="35" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+              <path
+                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+            </svg></a></li>
+        <li>
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#myModal">Sign in</button </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- The Modal -->
+  <div>
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Sign in</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label for="email">Sing in with your Email address:</label>
+                <input type="email" class="form-control" placeholder="Enter email" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+              </div>
+              <div class="form-group form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox"> Remember me
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ======================Ortasi===================== -->
+    <br />
+    <div id="content" class="container">
+      <div class="row">
+        <div class="col-sm-4 col-md-3">
+          <h3>Categories</h3>
+          <div class="list-group">
+            <a href="category.html" class="list-group-item">Apparel &
+              Accessories</a>
+            <a href="category.html" class="list-group-item">Baby
+              Products</a>
+            <a href="category.html" class="list-group-item">Beauty & Health</a>
+            <a href="category.html" class="list-group-item">Electronics</a>
+            <a href="category.html" class="list-group-item">Furniture</ a>
+              <a href="category.html" class="list-group-item">Home &
+                Garden</a>
+              <a href="category.html" class="list-group-item">Luggage &
+                Bags</a>
+              <a href="category.html" class="list-group-item">Shoes</a>
+              <a href="category.html" class="list-group-item">Sports &
+                Entertainment</a>
+              <a href="category.html" class="list-group-item">Watches</a>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-5">
+          <div class="thumbnail">
+            <div class="row">
+              <img class="img-responsive" src="https://cars.usnews.com/static/images/Auto/izmo/354318/2013_mini_cooper_convertible_angularfront.jpg" width="500" height="400" alt="" />
+              <div class="thumbnails">
+                <br />
+                <div class="row">
+                  <div class="col-sm-2 col-md-3">
+                    <a href="#"><img src="https://auto.vercity.ru/img/magazine/2019/01/23/1548182143.jpg" alt="" class="img-thumbnail " /></a>
+                  </div>
+                  <div class="col-sm-2 col-md-3">
+                    <a href="#"><img src="https://img5.lalafo.com/i/posters/original/4b/53/f645c72d54099f132629aa840117.jpeg" alt="" class="img-thumbnail img-responsive" /></a>
+                  </div>
+                  <div class="col-sm-2 col-md-3">
+                    <a href="#"><img src="https://carscomfort.ru/800/600/http/fb.ru//misc/i/gallery/63968/2063407.jpg" alt="" class="img-thumbnail img-responsive" /></a>
+                  </div>
+                  <div class="col-sm-2 col-md-3">
+                    <a href="#"><img src="https://s.auto.drom.ru/i24253/c/photos/fullsize/mini/hatch/mini_hatch_992104.jpg" alt="" class="img-thumbnail img-responsive" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <h4 class="justify-content-end">$24.99</h4>
+          <h4><a href="product.html">Mini Cooper</a></h4>
+          <p>The BMW MINI Cooper is available in either a 2-door hatchback or a convertible.
+            While both are available in Base and S versions, only the hatchback is available in the new John Cooper Works GP edition,
+            which incorporates more features, a stronger engine, and a sportier ride.
+            There are numerous styling and badging differences between the other two models.</p>
+          <form role="form">
+            <div class="number form-group">
+              <label class="control-label" for="number">Number</ label>
+                <input type="number" class="form-control input-sm" id="number" />
+            </div><br />
+            <div class="form-group">
+              <label>Color</label>
+              <select id="color">
+                <option name="color">Blue</option>
+                <option name="color">Green</option>
+                <option name="color">Red</option>
+                <option name="color">Yellow</option>
+              </select>
+            </div>
+            <br />
+            <div class="form-group">
+              <label>Size</label>
+              <div class="btn-group">
+                  <button type="button" class="btn btn-default">XS</ button>
+                  <button type="button" class="btn btn-default">S</ button>
+                  <button type="button" class="btn btn-default">M</ button>
+                  <button type="button" class="btn btn-default">L</ button>
+                  <button type="button" class="btn btn-default">XL</ button>
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btndefault">Contact Seller</button>
+              <button type="submit" class="btn btn-success">Add to Cart</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="description">
+        <p>
+          Introduced in 2002 as a completely new design, the BMW MINI Cooper is a throwback to its ancestor of the same name, mimicking its appearance and performance. Whilst the car has been criticized for its poor space-efficiency compared with the original Mini (despite its significantly larger size), its faithfulness to the original's razor sharp handling characteristics and its unique styling has seen the BMW MINI become a sales success in Europe and (since its introduction in 2002) in the U.S. BMW has received a significant backlog of orders throughout the life of the car and the Cowley factory is working at its full capacity of around 100,000 cars per year; all of this with little conventional advertising.
+        </p>
+      </div>
+      <div class="ratings">
+        <p class="float-end">3 reviews</p>
+        <p>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="far fa-star"></span>
+          4.0 stars
+        </p>
+      </div>
+      <br /><br /><br />
+      <div class="well">
+        <div class="d-flex justify-content-end">
+          <a href="category.html" class="btn btn-success">Leave a Review</a>
+        </div>
+        <br />
+        <br />
+        <div class="row">
+          <div class="col-md-12">
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="far fa-star"></span>
+            David More
+            <span class="float-end">1 day ago</span>
+            <p>From <em>United States</em></p>
+            <p>This product was great in terms of quality. I would
+              definitely buy another!</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="far fa-star"></span>
+          John Doe
+          <span class="float-end">2 days ago</span>
+          <p>From <em>Australia</em></p>
+          <p>I've already ordered another one!</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="fas fa-star"></span>
+          <span class="far fa-star"></span>
+          Jane Dwayne
+          <span class="float-end">5 days ago</span>
+          <p>From <em>United Kingdom</em></p>
+          <p>I've seen some better than this, but not at this
+            price. I definitely recommend this item.</p>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-12">
+          <h3> Other products you may want to buy </h3>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="img-thumbnail">
+            <img src="https://cs2.gamemodding.com/images/748x405/9c5d57dd1b66f1e4f9a0d3da9fbf4c383210bf33608f40ad831131eb9c370ac0.jpg" alt="" class="card-img-top">
+            <div class="add-to-cart">
+              <a href="#" class="d-flex justify-content-center" title="Add to cart"><button class="btn btn-success btn-circle btn-lg"><i class="fas fa-plus"></i></button></a>
+            </div>
+            <div class="caption">
+              <h4 class="float-end">$54.99</h4>
+              <h4><a href="product.html">3<sup>rd</sup> Product</a>
+              </h4>
+              <p>This is a short description. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit.</p>
+              <div class="ratings">
+                <p class="float-end"><a href="product.html#comments">56 reviews</a></p>
+                <p>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="img-thumbnail">
+            <img src="https://cs2.gamemodding.com/images/748x405/9c5d57dd1b66f1e4f9a0d3da9fbf4c383210bf33608f40ad831131eb9c370ac0.jpg" alt="" class="card-img-top">
+            <div class="add-to-cart">
+              <a href="#" class="d-flex justify-content-center" title="Add to cart"><button class="btn btn-success btn-circle btn-lg"><i class="fas fa-plus"></i></button></a>
+            </div>
+            <div class="caption">
+              <h4 class="float-end">$54.99</h4>
+              <h4><a href="product.html">3<sup>rd</sup> Product</a>
+              </h4>
+              <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="ratings">
+                <p class="float-end"><a href="product.html#comments">56 reviews</a></p>
+                <p>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="img-thumbnail">
+            <img src="https://cs2.gamemodding.com/images/748x405/9c5d57dd1b66f1e4f9a0d3da9fbf4c383210bf33608f40ad831131eb9c370ac0.jpg" alt="" class="card-img-top">
+            <div class="add-to-cart">
+              <a href="#" class="d-flex justify-content-center" title="Add to cart"><button class="btn btn-success btn-circle btn-lg"><i class="fas fa-plus"></i></button></a>
+            </div>
+            <div class="caption">
+              <h4 class="float-end">$54.99</h4>
+              <h4><a href="product.html">3<sup>rd</sup> Product</a>
+              </h4>
+              <p>This is a short description. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit.</p>
+              <div class="ratings">
+                <p class="float-end"><a href="product.html#comments">56 reviews</a></p>
+                <p>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="far fa-star"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ================Footer bottom of the page================================== -->
+    <div class="container text-center">
+      <hr />
+      <!-- Footer -->
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; <a href="ecommerce.html">Packt Publishing</a> 2021 <br> Amanzhol Yerassyl</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+</body>
+
+</html>
